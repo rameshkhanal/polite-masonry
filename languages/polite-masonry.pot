@@ -1,0 +1,140 @@
+# Copyright (C) 2026 templatesell
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Polite Masonry 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/polite-masonry\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-24T08:41:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: polite-masonry\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Polite Masonry"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.templatesell.com/item/polite-minimal-blog-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A perfect theme for blog and magazine site. With masonry layout and multiple blog page layout, this theme is the awesome and minimal theme. It is a child theme of Polite. This theme has search option, off-canvas sidebar, multiple sidebar options, footer options, featured slider, promo boxed, footer widgets and many more. Besides that, this theme comes with added custom widgets for author information, featured posts, social icons, etc. It comes with primary color option to change the whole site color with a single click. More Details: https://www.templatesell.com/item/polite-grid/"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "templatesell"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.templatesell.com/"
+msgstr ""
+
+#: footer.php:70
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:73
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:79
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:117
+msgid "Menu"
+msgstr ""
+
+#: functions.php:157
+msgid "Related Posts"
+msgstr ""
+
+#: functions.php:166
+msgid "Copyright All Rights Reserved 2022"
+msgstr ""
+
+#: functions.php:203
+msgid "Show from Excerpt"
+msgstr ""
+
+#: functions.php:204
+msgid "Show from Content"
+msgstr ""
+
+#: functions.php:205
+msgid "Hide Content"
+msgstr ""
+
+#: functions.php:207
+msgid "Select Content Display From"
+msgstr ""
+
+#: functions.php:208
+msgid "You can enable excerpt from Screen Options inside post section of dashboard"
+msgstr ""
+
+#: functions.php:224
+msgid "Show Read Time"
+msgstr ""
+
+#: functions.php:225
+msgid "Option to hide the read time on the blog page."
+msgstr ""
+
+#: functions.php:241
+msgid "URL of Font Family"
+msgstr ""
+
+#: functions.php:244
+msgid "Select the font here. More options are available"
+msgstr ""
+
+#: functions.php:246
+msgid "in the premium version Polite Plus"
+msgstr ""
+
+#: functions.php:247
+msgid "check now."
+msgstr ""
+
+#: functions.php:266
+msgid "Default Slider"
+msgstr ""
+
+#: functions.php:267
+msgid "Carousel Slider"
+msgstr ""
+
+#: functions.php:269
+msgid "Select preferred slider design"
+msgstr ""
+
+#: functions.php:270
+msgid "You can use default slider or carousel slider"
+msgstr ""
+
+#. translators: %s: number of minutes a post takes to read.
+#: functions.php:300
+#, php-format
+msgid "%s Min Reading"
+msgid_plural "%s Min Reading"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content.php:62
+msgid "Pages:"
+msgstr ""
