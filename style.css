@@ -1,0 +1,234 @@
+/*
+Theme Name: Polite Masonry
+Theme URI: https://www.templatesell.com/item/polite-minimal-blog-wordpress-theme/
+Author: templatesell
+Author URI: https://www.templatesell.com/
+Description: A perfect theme for blog and magazine site. With masonry layout and multiple blog page layout, this theme is the awesome and minimal theme. It is a child theme of Polite. This theme has search option, off-canvas sidebar, multiple sidebar options, footer options, featured slider, promo boxed, footer widgets and many more. Besides that, this theme comes with added custom widgets for author information, featured posts, social icons, etc. It comes with primary color option to change the whole site color with a single click. More Details: https://www.templatesell.com/item/polite-grid/
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: polite-masonry
+Template: polite
+Requires PHP: 5.2
+Tested up to: 6.0
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, blog, news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Polite Gid is free WordPress theme by, Template Sell and child theme of Polite.
+Polite Grid is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+html{
+    font-size: 100%!important;
+}
+.main-header .logo h1{
+	text-transform: uppercase;
+}
+header.header-1 {
+    border-bottom: 1px solid #f2f2f2;
+}
+.posts-container{
+	padding-top: 30px;
+}
+
+.blog-item {
+    position: relative;
+}
+.polite_3carousel{
+    padding-top: 30px;
+}
+.polite_3carousel [class*="col-"]{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.blog-img {
+    margin-bottom: 0;
+}
+.blog-item .no-image {
+    min-height: 250px;
+    width: 100%;
+    background: #000;
+}
+.blog-item .post-category {
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+    display: block;
+}
+.blog-item .blog-img:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42,42,42,0.30);
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+}
+.blog-item .blog-img:before {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(42,42,42,0.60);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, .65) 100%);;
+} 
+.blog-item .blog-img > img {
+    width: 100%;
+}
+.blog-item .blog-info {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    z-index: 9;
+    padding: 0 20px;
+    width: 100%;
+}
+.blog-item .entry-title {
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 32px;
+}
+.blog-item .entry-title a {
+    color: #ffffff;
+}
+.blog-item .meta {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.blog-item .meta li,
+.blog-item .meta li a {
+    display: inline-block;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.blog-item .meta li {
+    padding: 0 13px;
+}
+.blog-item .meta li:last-child {
+    padding-right: 0;
+}
+.blog-item .meta li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    width: 2px;
+    height: 1px;
+    background-color: #cbcccb;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.blog-item .meta li:first-child {
+    padding-left: 0;
+}
+.blog-item .meta li:last-child:before {
+    display: none;
+}
+
+.polite_3carousel .slick-arrow {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  background: none;
+  padding: 0;
+  font-size: 24px;
+  height: 50px;
+  width: 40px;
+  border: 1px solid #c7c8ca;
+  color: #c7c8ca;
+  text-align: center;
+  line-height: 50px;
+  transition: all .3s;
+  cursor: pointer;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+}
+.polite_3carousel:hover .slick-arrow{
+    opacity: 1;
+    visibility: visible;
+}
+.polite_3carousel .slick-arrow:hover{
+  border: 1px solid #c7c8ca;
+  color: #c7c8ca;
+}
+.polite_3carousel .slick-arrow.slick-next {
+  right: 30px;
+  left: auto;
+}
+.polite_3carousel .slick-dots {
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+}
+.polite_3carousel .slick-dots li {
+  display: inline-block;
+  line-height: 0;
+}
+.polite_3carousel .slick-dots li.slick-active button{
+  background: #000000;
+}
+.polite_3carousel .slick-dots li button {
+  text-indent: -99999px;
+  border: 0;
+  margin: 0 5px;
+  padding: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #959698;
+}
+
+.sidebar-3 .widget {
+    margin: 0 0 30px 0;
+    background: #fff;
+    border:none;
+}
+
+.sidebar-3 .widget-title {
+    float: left;
+    width: 100% !important;
+    color: #000;
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-left: 0;
+    margin: 0px 0px 25px 0px;
+    border-bottom: 1px solid #E2E3E7;
+    position: relative;
+    text-align: left;
+
+}
+.sidebar-3 .widget-title:after {
+    content: initial;
+}
+.post-wrap.left-image.has-content{
+    display: inline-grid;
+}
+.post-wrap.left-image.has-content .post-media{
+    max-width: 100%;
+    display: block;
+}
+.comment-form{
+    padding: 15px;
+}
